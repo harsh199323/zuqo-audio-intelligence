@@ -1,0 +1,48 @@
+# Core Audio Processing
+librosa
+soundfile
+wget
+
+# Speech-to-Text (Batch)
+openai-whisper
+
+# Speech-to-Text (Streaming) - Google Cloud
+google-cloud-speech>=2.0.0
+
+# LLM & NLP
+langchain-google-genai
+keybert
+sentence-transformers
+transformers
+nltk
+
+# DeepFilterNet for Noise Reduction
+deepfilternet
+torch==2.1.0
+torchaudio==2.1.0
+
+# WebSocket Server (Streaming)
+websockets>=12.0
+
+# HTTP & Networking
+httpx
+requests
+
+# Database (Optional)
+pymongo
+
+# Configuration & Utilities
+python-dotenv
+omegaconf
+pytz
+fuzzywuzzy
+
+# Deepgram (Alternative STT)
+deepgram-sdk
+
+# Speaker Diarization (Optional)
+pyannote.audio
+huggingface-hub==0.9.1
+
+# Text-to-Speech
+gtts

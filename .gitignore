@@ -1,0 +1,202 @@
+# ==================== SECURITY & SECRETS ====================
+# Environment files with real credentials
+.env
+.env.local
+.env.*.local
+
+# Google Cloud credentials
+*.json
+!.env.example
+!reference_output_format.txt
+!package*.json
+
+# API keys and tokens
+*.key
+*.pem
+credentials/
+
+# ==================== PYTHON ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+zuqo/
+
+# ==================== ML MODELS ====================
+# Whisper models (download via script)
+models/*.pt
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# DeepFilterNet checkpoints
+*.ckpt
+
+# Hugging Face cache
+.cache/
+huggingface_cache/
+
+# Model directories
+base.en/
+small.en/
+medium.en/
+large/
+
+# ==================== AUDIO FILES ====================
+# Generated and input audio (large files)
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.aac
+*.wma
+*.opus
+
+# Allow example audio in examples/ directory
+!examples/*.wav
+!examples/*.mp3
+
+# Enhanced audio outputs
+enhanced_audio_*.wav
+*_enhanced.wav
+*_denoised.wav
+
+# ==================== OUTPUT FILES ====================
+# Streaming session logs with potential PII
+streaming_session_*.json
+
+# Pipeline results with transcripts
+pipeline_result.json
+advanced_result.json
+
+# Analysis outputs
+*_result.json
+*_analysis.json
+*_metrics.json
+
+# Allow sanitized examples
+!examples/*_example.json
+
+# ==================== LOGS & TEMP FILES ====================
+# Log files
+*.log
+logs/
+*.out
+*.err
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== IDE & EDITOR ====================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Spyder
+.spyproject/
+.spyderproject/
+
+# ==================== DATABASE ====================
+# MongoDB dumps
+*.bson
+dump/
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================== ARCHIVE ====================
+# Unwanted documentation files
+archive/SECURITY.md
+archive/GITHUB_SETUP_GUIDE.md
+archive/SUCCESS_REPORT.md
+archive/FIX_SUMMARY.md
+archive/PUBLISHING_SUMMARY.md
+archive/reference_output_format.txt
+archive/README.md
+
+# Archive audio/output files
+archive/*.wav
+archive/*.mp3
+archive/*.json
+
+# Archive backup/duplicate code
+archive/*copy.py
+archive/streaming_session_*.json
+
+# ==================== MISC ====================
+# System files
+.Trash-*
+.nfs*
+
+# Backup files
+*.bak
+*.backup
+*.old
