@@ -1,7 +1,7 @@
 # 🎙️ Real-Time Audio Intelligence Pipeline
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 > **A production-grade hybrid audio analytics system featuring both batch processing and real-time streaming capabilities for conversation intelligence, quality assurance, and agent coaching in call center environments.**
@@ -617,19 +617,7 @@ pytest --cov=. --cov-report=html
 
 ## 📄 License
 
-This project is licensed under the **Apache License 2.0** - see the [LICENSE](LICENSE) file for details.
-
-Key permissions:
-- ✅ Commercial use
-- ✅ Modification
-- ✅ Distribution
-- ✅ Patent use
-- ✅ Private use
-
-Requirements:
-- 📝 Include original license and copyright
-- 📝 State changes made to the code
-- 📝 Include NOTICE file if provided
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
